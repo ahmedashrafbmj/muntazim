@@ -1,0 +1,60 @@
+.table{
+    text-transform: capitalize;
+}
+.table thead tr th{
+    font-weight: 500;
+    color: #7b7b7b;
+}
+.table img{
+    object-fit:cover;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+}
+
+.table .img-holder{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+}
+.item h2{
+    color:#BF1B66 ;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.item .details{
+    color:#000;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+.btn{
+    margin-top:54px;
+}
+.btn button{
+    color: #D63058;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+}
+.qty{
+    background-color: #fff !important;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #3d3d3d;
+    border-radius: 3px;
+    padding: 5px 0;
+
+}
+.qty span{
+    font-size: 9px;
+
+}
+.price{
+    color: #BF1B66;
+    font-weight: 700;
+}

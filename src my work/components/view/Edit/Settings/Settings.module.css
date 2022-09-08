@@ -1,0 +1,231 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.bodyJumbo {
+  opacity: 1;
+  background-color: rgb(171 155 162 / 28%);
+  border-radius: 35px;
+  padding: 40px 20px;
+  margin: 30px auto;
+  display: block;
+}
+.allBtn {
+  width: 98%;
+  text-align: start;
+  border-radius: 15px;
+  border: none;
+  background: #feb139;
+  padding: 10px 20px;
+  margin: 8px 0px;
+}
+.icons {
+  display: inline !important;
+  color: #46115e;
+}
+.name {
+  display: inline !important;
+  margin: 2px 10px 0px 20px;
+  color: #bf1b66;
+  font-size: large;
+  font-weight: 800;
+}
+.eastIcon {
+  display: inline !important;
+  float: right;
+  color: #46115e;
+}
+
+/* ############################################## */
+
+/** @format */
+
+.loginJumbo {
+  opacity: 1;
+  background-color: rgb(171 155 162 / 28%);
+  border-radius: 35px;
+  padding: 20px;
+  margin: 30px auto;
+  display: block;
+}
+.block {
+  opacity: 1;
+  background-color: #feb139;
+  border-radius: 18px;
+  padding: 25px 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+.icons {
+  display: inline !important;
+  color: #46115e;
+  font-size: 25px;
+}
+.heading {
+  display: inline !important;
+  margin: 2px 10px 0px 20px;
+  color: #bf1b66;
+  font-size: 20px;
+  font-weight: 800;
+}
+.westIcon {
+  display: inline !important;
+  float: right;
+  color: #46115e;
+}
+.lowerDiv {
+  padding: 25px;
+}
+.para {
+  font-weight: 100;
+  color: #7c7070;
+  margin-left: 20px;
+}
+.Logout {
+  border-radius: 30px;
+  /* width: 45%; */
+  padding: 8px 60px 8px 60px;
+  background-color: #bf1b66;
+  color: white;
+  border: none;
+
+  font-size: large;
+}
+.btnRight {
+  text-align: right;
+}
+
+.inputDiv {
+  border: transparent;
+  border-radius: 10px;
+  height: 100px;
+  background-color: white;
+  margin: 15px;
+  padding: 10px 16px 16px 16px;
+  width: 70%;
+}
+.headings {
+  margin-bottom: -4px;
+  display: inline;
+  font-size: small;
+}
+.Icon {
+  display: inline;
+  margin-right: 5px;
+  color: #46115e;
+}
+input[name="checkbox"] {
+  display: inline;
+  float: right;
+  accent-color: #bf1b66;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.InnerPara {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.568);
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+/* ####################### */
+
+/** @format */
+.btnDiv {
+  margin-top: 60px;
+}
+.btn1 {
+  border-radius: 17px;
+  padding: 10px 10% 10px 10%;
+  background-color: #c1c1c1;
+  color: white;
+  border: none;
+  margin: 30px auto;
+  display: inline-block;
+  font-size: medium;
+  position: relative;
+  left: 70px;
+}
+.btn2 {
+  border-radius: 17px;
+  padding: 10px 8% 10px 8%;
+  background-color: #c1c1c1;
+  color: white;
+  border: none;
+  margin: 30px auto;
+  display: inline-block;
+  font-size: medium;
+  position: relative;
+  box-shadow: 0 0 4px -2px #202124;
+  left: 45px;
+}
+.btn3 {
+  border-radius: 17px;
+  padding: 10px 10% 10px 10%;
+  background-color: #bf1b66;
+  box-shadow: 0 0 4px -2px #202124;
+  color: white;
+  border: none;
+  margin: 30px auto;
+  display: inline-block;
+  font-size: medium;
+  position: relative;
+  right: -20px;
+}
+
+.btn3:hover {
+  background-color: #bf1b66;
+}
+.btn2:hover {
+  background-color: #bf1b66;
+}
+.btn1:hover {
+  background-color: #bf1b66;
+}
+
+@media (max-width: 1058px) {
+  .btn1 {
+    left: 35px;
+  }
+  .btn2 {
+    padding: 10px 7% 10px 7%;
+    left: 0px;
+  }
+  .btn3 {
+    right: 35px;
+  }
+}
+@media (max-width: 977px) {
+  .btn1 {
+    left: 35px;
+    font-size: small;
+  }
+  .btn2 {
+    padding: 10px 7% 10px 7%;
+    left: 0px;
+    font-size: small;
+  }
+  .btn3 {
+    right: 35px;
+    font-size: small;
+  }
+}
+@media (max-width: 818px) {
+  .btn1 {
+    left: 5px;
+    font-size: smaller;
+  }
+  .btn2 {
+    padding: 10px 6% 10px 6%;
+    left: -25px;
+    font-size: smaller;
+  }
+  .btn3 {
+    right: 49px;
+    padding: 10px 7% 10px 7%;
+    font-size: smaller;
+  }
+}

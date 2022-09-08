@@ -1,0 +1,76 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.body {
+  background-image: url("../../../Assets/Images/bgimageabc.PNG");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.jumbotron.customjumbo {
+  left: 20%;
+  top: 15%;
+  right: 20%;
+  margin: auto;
+  position: absolute;
+  padding: 20px 20px 25px 20px;
+  opacity: 0.9;
+  background-color: rgba(251, 246, 248, 0.847);
+  border-radius: 50px;
+}
+.customjumbo1 {
+  display: inline-block;
+}
+.personal {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.mid-con {
+  background-color: rgb(190, 189, 189);
+  border-radius: 40px;
+  padding: 30px 20px 30px 20px;
+}
+.Inp1 {
+  border-radius: 10px;
+  width: 100%;
+  padding: 15px 20px 15px 20px;
+  background-color: white;
+  border: none;
+  margin: 0 10px 30px 0px;
+  outline: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.Inp2 {
+  border-radius: 10px;
+  width: 100%;
+  padding: 15px 20px 15px 20px;
+  background-color: white;
+  border: none;
+  outline: none;
+  margin: 0 10px 0px 0px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+button.btn.custombutton {
+  border-radius: 30px;
+  border: none;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  left: 42%;
+  position: relative;
+  top: 20px;
+  background-color: #bf1b66;
+}
+
+.profilePara {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+}

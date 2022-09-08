@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,700&display=swap');
+
+.input input,label{
+    color: #707070;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+.CheckBox{
+    align-items: center;
+}
+.CheckBox input[type="radio"] {
+    height: 1rem;
+    width:  1rem;
+    margin-right: 0.3rem;
+}
+
+.CheckBox input[type="radio"]:checked {
+    height:  1.2rem;
+    width:  1.2rem;
+    margin-right: 0.3rem;
+    accent-color: #b82569;
+}
+
+  
+input[type="date"]:focus,
+input[type="date"]:valid {
+color: #666666;
+}
+  
+
+  
+
+
+.form{
+    background-color: #FCFBFB;
+    font-family: 'Poppins', sans-serif !important;
+}
+.formField{
+    font-family: 'Poppins', sans-serif !important;
+}
+.label span{
+    background-color: #B91A65 !important;
+    color: #ffff;
+    border-radius: 18px;
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: capitalize;
+    padding: 0.2rem 0.5rem;
+}
+.formField input{
+    background-color: #F2F2F2;
+    border: none;
+    height: 45px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.10) 1.95px 1.95px 2.6px;
+    padding-left: 30px !important;
+    padding-right: 15px;
+    padding-top: 15px;
+    margin-top: 12px !important;
+    font-size: 15px;
+    min-width: 250px; 
+    max-width: 300px;
+}
+.formField input:focus{
+    background-color: #F2F2F2;
+    border: none !important;
+    outline: none !important;
+    box-shadow: rgba(0, 0, 0, 0.10) 1.95px 1.95px 2.6px;
+    
+}

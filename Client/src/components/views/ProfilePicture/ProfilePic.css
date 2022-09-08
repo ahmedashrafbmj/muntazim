@@ -1,0 +1,149 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.body {
+  background-image: url("../../../Assets/Images/bgimageabc.PNG");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.jumbotron.customjumbo {
+  left: 20%;
+  top: 15%;
+  right: 20%;
+  margin: auto;
+  position: absolute;
+  padding: 20px 20px 25px 20px;
+  opacity: 0.9;
+  background-color: rgba(251, 246, 248, 0.847);
+  border-radius: 50px;
+}
+.customjumbo1 {
+  display: inline-block;
+}
+.personal {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.mid-con {
+  background-color: rgb(190, 189, 189);
+  border-radius: 40px;
+  padding: 30px 20px 30px 20px;
+}
+
+button.btn.custombutton {
+  border-radius: 30px;
+  border: none;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  left: 42%;
+  position: relative;
+  top: 20px;
+  background-color: #bf1b66;
+}
+.avatarInp {
+  border-radius: 100px !important;
+  padding: 0;
+  background-color: white;
+  border: none;
+  margin: 0 10px 30px 0px;
+  outline: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.02), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.UploadInputLabel {
+  padding: 10px 50px 10px 50px;
+  background: rgb(190, 189, 189);
+  border: 1px solid purple;
+  display: table;
+  color: purple;
+  border-radius: 40px;
+  margin-top: 40px;
+  position: relative;
+  left: 39%;
+}
+.avatar {
+  border: 1px solid white;
+  margin-bottom: 10px;
+  position: relative;
+  left: 40%;
+}
+
+input[type="file"].avatarInp {
+  display: none;
+}
+
+@media (max-width: 889px) {
+  .UploadInputLabel {
+    padding: 10px 50px 10px 50px;
+    background: rgb(190, 189, 189);
+    border: 1px solid purple;
+    display: table;
+    color: purple;
+    border-radius: 40px;
+    margin-top: 40px;
+    position: relative;
+    left: 28%;
+  }
+  .avatar {
+    border: 1px solid white;
+    margin-bottom: 10px;
+    position: relative;
+    left: 28%;
+  }
+  button.btn.custombutton {
+    left: 36%;
+  }
+}
+@media (max-width: 616px) {
+  .UploadInputLabel {
+    padding: 10px 50px 10px 50px;
+    background: rgb(190, 189, 189);
+    border: 1px solid purple;
+    display: table;
+    color: purple;
+    border-radius: 40px;
+    margin-top: 40px;
+    position: relative;
+    left: 16%;
+  }
+  .avatar {
+    border: 1px solid white;
+    margin-bottom: 10px;
+    position: relative;
+    left: 16%;
+  }
+  button.btn.custombutton {
+    left: 28%;
+  }
+}
+@media (max-width: 500px) {
+  .UploadInputLabel {
+    padding: 10px 50px 10px 50px;
+    background: rgb(190, 189, 189);
+    border: 1px solid purple;
+    display: table;
+    color: purple;
+    border-radius: 40px;
+    margin-top: 40px;
+    position: relative;
+    left: 10%;
+  }
+  .avatar {
+    border: 1px solid white;
+    margin-bottom: 10px;
+    position: relative;
+    left: 10%;
+  }
+  button.btn.custombutton {
+    left: 25%;
+  }
+}

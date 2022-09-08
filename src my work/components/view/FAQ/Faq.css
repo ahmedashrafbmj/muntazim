@@ -1,0 +1,57 @@
+#head{
+  background-color: #b51b64;
+  height: 30vh;
+  width: 100%;
+}
+#heading{
+    color: white ;
+    /* text-align: center; */
+    margin-right: 50px;
+    padding-top: 20px;
+}
+#headSub{
+    text-align: center;
+}
+#heading2{
+    /* margin-top: 20px; */
+    text-align: center;
+    padding-top: 20px;
+    /* height: 100vh; */
+
+}
+#Ques{
+    width: 50%;
+    margin: auto;
+    background-color: #f8f8f8;
+    padding-top: 20px;
+}
+#colorChg{
+    background-color: #f8f8f8;
+    height: 100vh;
+}
+p{
+    color: white;
+}
+.accordion {
+    --bs-accordion-active-color: black;
+    --bs-accordion-active-color: black;
+    --bs-accordion-active-bg: white;
+}
+
+.Top{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 542px) {
+    #Ques{
+        width: 70%;
+        margin: auto;
+       
+    }
+}
+@media only screen and (max-width: 700px) {
+    #Ques{
+        width: 70%;
+        margin: auto;
+       
+    }
+}

@@ -1,0 +1,195 @@
+.inputPinkCenter{
+    margin:0 !important;
+    color: #BF1B66 !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+.input{
+    margin:0 !important;
+}
+.progressDot{
+    display: inline-block;
+    background-color:#BF1B66;
+    border-radius:50%;
+    height: 13px;
+    width: 13px;
+    margin: 0 6px;
+}
+.progressText{
+    color:#fff;
+    background-color: #46115E;
+    font-size: 10px;
+    padding: 3px 35px;
+    border-radius: 20px;
+    margin: 0 6px;
+}
+.prevDot{
+    display: inline-block;
+    background-color:#D36D98;
+    border-radius:50%;
+    height: 13px;
+    width: 13px;
+    margin: 0 6px;
+}
+.btn-gray-transparent{
+    border:1px solid #707070;
+    color:#707070;
+    background-color: transparent;
+    font-size: 10px;
+    padding: 3px 20px;
+    border-radius: 20px;
+    margin: 6px 00px 0px 17%;   
+}
+
+.btn-blue-transparent{
+    border:1px solid #46115E;
+    color:#46115E;
+    background-color: transparent;
+    font-size: 12px;
+    padding: 3px 20px;
+    border-radius: 20px;
+    margin: 6px 00px 0px 21%;   
+    font-weight: 600;
+}
+.flex-container button {
+    color:#46115E;
+    font-size: 11px;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+}
+.flex-container button i{
+    font-size: 10px;
+    padding-right: 2px;
+    font-weight: bolder !important;
+}
+
+
+@media  screen and (max-width:400px) {
+    .btn-gray-transparent{
+        display: block;
+        margin: 0 auto;  
+    }
+    .progressDot{
+        height: 10px;
+        width: 10px;
+        margin: 0 3px;
+    }
+    .progressText{
+        padding: 3px 28px;
+        margin: 0 3px;
+    }
+    .prevDot{
+        height: 10px;
+        width: 10px;
+        margin: 0 4px;
+    }
+}
+
+
+
+/* Basic styling */
+
+.inputGroup input[type=checkbox] {
+    width: 1rem;
+    height: 1rem;
+    color: #BF1B66;
+    vertical-align:-1px;
+    -webkit-appearance: none;
+    background: none;
+    border: 0;
+    outline: 0;
+    flex-grow: 0;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    margin-right: 5px;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+  }
+  
+  
+  /* Pseudo element for check styling */
+  
+  .inputGroup input[type=checkbox]::before {
+    content: "";
+    color: transparent;
+    display: block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    border: 0;
+    background-color: transparent;
+    background-size: contain;
+    box-shadow: inset 0 0 0 1px #CCD3D8;
+  }
+  
+  
+  /* Checked */
+  
+  .inputGroup input[type=checkbox]:checked {
+    background-color: currentcolor;
+  }
+  
+  .inputGroup input[type=checkbox]:checked::before {
+    box-shadow: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E %3Cpath d='M15.88 8.29L10 14.17l-1.88-1.88a.996.996 0 1 0-1.41 1.41l2.59 2.59c.39.39 1.02.39 1.41 0L17.3 9.7a.996.996 0 0 0 0-1.41c-.39-.39-1.03-.39-1.42 0z' fill='%23fff'/%3E %3C/svg%3E");
+  }
+  
+  
+  /* Disabled */
+  
+  .inputGroup input[type=checkbox]:disabled {
+    background-color: #CCD3D8;
+    opacity: 0.84;
+    cursor: not-allowed;
+  }
+  
+  
+  /* IE */
+  
+  .inputGroup input[type=checkbox]::-ms-check {
+    content: "";
+    color: transparent;
+    display: block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    border: 0;
+    background-color: transparent;
+    background-size: contain;
+    box-shadow: inset 0 0 0 1px #CCD3D8;
+  }
+  
+  .inputGroup input[type=checkbox]:checked::-ms-check {
+    box-shadow: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E %3Cpath d='M15.88 8.29L10 14.17l-1.88-1.88a.996.996 0 1 0-1.41 1.41l2.59 2.59c.39.39 1.02.39 1.41 0L17.3 9.7a.996.996 0 0 0 0-1.41c-.39-.39-1.03-.39-1.42 0z' fill='%23fff'/%3E %3C/svg%3E");
+  }
+
+
+
+
+  
+.radio{
+    align-items: center;
+}
+.radio label{
+    color: #46115E;
+    font-size: 20px;
+    font-weight: bold;
+}
+.radio input[type="radio"] {
+    height: 1rem;
+    width:  1rem;
+    margin-right: 0.3rem;
+    outline:#BF1B66;
+
+}
+
+.radio input[type="radio"]:checked {
+    height:  1.2rem;
+    width:  1.2rem;
+    margin-right: 0.3rem;
+    accent-color: #b82569;
+   
+}

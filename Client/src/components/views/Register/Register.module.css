@@ -1,0 +1,121 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.body {
+  background-image: url("../../../Assets/Images/bgimageabc.PNG");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 661px;
+  width: inherit;
+}
+.verticalLine {
+  border-left: 1px solid rgba(150, 145, 145, 0.178);
+  height: 380px;
+  margin-top: 55px;
+}
+.col-md-1.vl {
+  padding-right: 0;
+  padding-left: 10px;
+}
+@media (max-width: 768px) {
+  .body {
+    height: 830px;
+  }
+  .verticalLine {
+    display: none;
+  }
+  .col-md-1.vl {
+    display: none;
+  }
+  .registerJumbo {
+    height: 780px;
+  }
+  .googleBtn {
+    margin-left: 90px;
+  }
+
+  .facebookBtn {
+    margin-left: 90px;
+  }
+}
+@media (max-width: 548px) {
+  .googleBtn {
+    margin-left: 70px;
+  }
+
+  .facebookBtn {
+    margin-left: 70px;
+  }
+}
+.registerJumbo {
+  opacity: 1;
+  background-color: rgba(251, 246, 248, 0.847);
+  border-radius: 50px;
+  padding: 40px;
+  margin: auto;
+  display: block;
+}
+.registerLabel {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.formDiv {
+  padding: 10px 40px 10px 40px;
+}
+.form-control.signupInp {
+  padding: 10px 0;
+  outline: none;
+}
+.signupBtn {
+  padding: 6px 65px 6px 65px;
+  color: white;
+  background-color: #bf1b66;
+  border: none;
+  margin: 10px auto auto auto;
+  display: block;
+  border-radius: 30px;
+}
+
+.CreateAccountPara {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: larger;
+  font-weight: 700;
+  color: #46115e;
+}
+.buttonDiv {
+  position: relative;
+  top: 30%;
+}
+
+.googleBtn {
+  padding: 5px 35px 5px 35px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  color: #bf1b66;
+  border-radius: 30px;
+  background: transparent;
+  border: 1px solid;
+}
+
+.facebookBtn {
+  padding: 5px 35px 5px 35px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-radius: 30px;
+  background: transparent;
+  border: 1px solid;
+  color: #1c1fd8;
+  border-radius: 30px;
+}
+.signupPara {
+  color: #7e7c7c;
+  text-align: center;
+}

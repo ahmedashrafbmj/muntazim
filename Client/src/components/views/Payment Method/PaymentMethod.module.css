@@ -1,0 +1,76 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.PMJumbotron {
+  opacity: 1;
+  background-color: rgba(251, 246, 248, 0.847);
+  border-radius: 50px;
+  padding: 40px 40px 0px 40px;
+  margin: 30px auto;
+  display: block;
+}
+.PMheading {
+  font-size: 22px;
+  color: #bf1b66;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+input[name="radioButton"] {
+  accent-color: #bf1b66;
+  display: block;
+  min-height: 1.2rem;
+  min-width: 1.2rem;
+  position: relative;
+  left: 90%;
+  bottom: 84%;
+}
+
+.CreditDiv {
+  border: transparent;
+  border-radius: 10px;
+  height: 67px;
+  background-color: white;
+  margin: 15px;
+}
+.CreditDiv:hover {
+  /* background: #fec260; */
+  background: #feb139;
+}
+.headings {
+  font-size: medium;
+  font-weight: 500;
+  margin-bottom: -7px;
+}
+.paras {
+  font-size: small;
+  font-weight: 500;
+  margin-left: 55px;
+}
+.inputImages {
+  height: 40px;
+  margin-top: 6px;
+  width: 45px;
+  margin-right: 8px;
+}
+.icons {
+  color: #bf1b66;
+  margin: 10px 15px 6px 15px;
+}
+.pmIcon {
+  color: #bf1b66;
+  margin: 0px 15px 2px -22px;
+  font-size: 30px;
+}
+.choose {
+  border-radius: 30px;
+  /* width: 45%; */
+  padding: 8px 50px 8px 50px;
+  background-color: #bf1b66;
+  color: white;
+  border: none;
+  margin: 30px auto;
+  display: block;
+  font-size: large;
+}

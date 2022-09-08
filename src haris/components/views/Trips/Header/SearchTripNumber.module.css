@@ -1,0 +1,179 @@
+.heading h2{
+    color: #BF1B66;
+    text-transform: capitalize;
+    opacity: 1;
+    font-weight: bold;
+    font-size: 44px;
+    filter: drop-shadow(0mm 3mm 6mm #00000000);
+
+}
+.heading p{
+    font-size: 18px;
+    color:#262525;
+    font-weight: 300;
+}
+
+
+
+.search{
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+    border-radius: 30px;
+    min-width: 250px;
+    width: 600px;
+    margin: 0 auto;
+}
+.search input{
+    border-radius: 30px;
+    height: 60px;
+    text-indent: 25px;
+    border: none;
+    
+}
+.search input:focus{
+    box-shadow: none;
+    border: none;
+}
+.search input::placeholder{
+    color: #9E9E9E;
+}
+
+.search i{
+    position: absolute;
+    top: 10px;
+    left: 18px;
+    font-size: 1.6rem;
+    color: #BF1B66 !important;
+}
+
+.search button{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+}
+.search button:hover{
+    border: none;
+}
+@media (max-width:992px) {
+    .heading h2{
+        font-size: 38px;
+    }
+    .heading p{
+        font-size: 16px;
+    }
+}
+@media (max-width:768px) {
+    .heading h2{
+        font-size: 30px;
+    }
+    .heading p{
+        font-size: 15px;
+    }
+    .search{
+        width: 400px;
+    }
+    .search i{
+        font-size: 1.5rem;
+    }
+    .search button{
+        height: 40px;
+        width: 40px;
+        top: 4px;
+        right: 23px;
+    }
+    .search input{
+        height: 55px;
+        
+    }
+
+}
+@media (max-width:576px) {
+
+    .heading h2{
+        font-size: 25px;
+    }
+    .heading p{
+        font-size: 15px;
+    }
+    .search{
+        width: 300px;
+        font-size: 20px;
+    }
+    .search input::placeholder{
+        font-size: 14px;
+    }
+    .search i{
+        font-size: 1.2rem;
+    }
+    .search button{
+        height: 25px;
+        width: 25px;
+        top: 3px;
+        right: 20px;
+    }
+    .search input{
+        height: 48px;
+        text-indent: 10px;
+        
+    }
+}
+
+@media (max-width:400px) {
+
+    .heading h2{
+        font-size: 20px;
+    }
+    .heading p{
+        font-size: 12px;
+    }
+
+    .search{
+        max-width:250px;
+        font-size: 20px;
+    }
+    .search input{
+        height: 40px;
+        text-indent: 10px;
+        
+    }
+    .search input::placeholder{
+        font-size: 14px;
+    }
+    .search i{
+        font-size: 1.2rem;
+    }
+    .search button{
+        height: 25px;
+        width: 25px;
+        top: 0px;
+        right: 22px;
+    }
+
+}
+@media (max-width:300px){
+    .search{
+
+        width: 180px !important;
+        font-size: 15px;
+    }
+    .search input{
+        height: 30px;
+        width: 180px !important;
+        text-indent: 7px;
+        
+    }
+    .search input::placeholder{
+        font-size: 12px;
+    }
+    .search i{
+        font-size: 1rem;
+    }
+    .search button{
+        height: 20px;
+        width: 20px;
+        top: -5px;
+        right: 52px;
+    }
+}

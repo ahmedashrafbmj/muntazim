@@ -1,0 +1,15 @@
+
+.bgImage{
+    display:flex;
+    min-height: 93.7vh;
+}
+.Heading i{
+    color:#46115E ;
+    font-size: 50px;
+    padding-right: 25px;
+}
+.Heading h2{
+    font-size: 38px;
+    padding-top: 6px;
+    font-weight: 600;
+}

@@ -1,0 +1,81 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.save {
+  border-radius: 30px;
+  /* width: 45%; */
+  padding: 8px 100px 8px 100px;
+  background-color: #bf1b66;
+  color: white;
+  border: none;
+  margin: 10px auto;
+  display: block;
+  font-size: large;
+}
+
+.StoreProfileJumbo {
+  opacity: 1;
+  background-color: rgba(251, 246, 248, 0.847);
+  border-radius: 50px;
+  padding: 40px 40px 10px 40px;
+  margin: auto;
+  display: block;
+}
+.StoreProfileHeading {
+  text-align: center;
+  font-size: 25px;
+  color: #46115e;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.StoreSubHeading {
+  text-align: center;
+  font-size: 18px;
+  color: #bf1b66;
+  font-weight: 800;
+}
+.pictureDiv {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  background-color: #79757a;
+  margin: 0 auto;
+}
+.profileImage {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  position: relative;
+  bottom: 25px;
+}
+
+.UploadPictureLabel {
+  border: 1px solid;
+  padding: 8px 55px 8px 55px;
+  border-radius: 20px;
+  border-color: #46115e;
+  color: #46115e;
+  background: transparent;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.labelDiv {
+  display: block;
+  margin: 40px auto 5px auto;
+  width: 165px;
+}
+.plusIcon {
+  margin: auto;
+  color: white;
+}
+.IconDiv {
+  background-color: #46115e;
+  width: 24px;
+  height: 26px;
+  position: relative;
+  left: 70%;
+  border-radius: 50%;
+  z-index: 1;
+}

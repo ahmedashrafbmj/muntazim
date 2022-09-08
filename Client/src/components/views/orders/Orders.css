@@ -1,0 +1,99 @@
+#heading{
+    text-align: center;
+}
+abbr.abcde {
+    display: none;
+}
+#icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+#childs{
+    display: flex;
+    justify-content: space-around;
+}
+#para{
+    margin-left: 15px;
+}
+.clrchg{
+    color: gray;
+}
+.date{
+    color: #3a194b;
+}
+#mainsec{
+    background-color: purple;
+}
+#sections{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin-top: 20px;
+}
+#frstsec{
+    width: 26%;
+    height: 60vh;
+    background-color: #faf9f7;
+    color :white;
+    border-radius: 20px;
+}
+#Secsec{
+    width: 26%;
+    height: 60vh;
+    background-color: #faf9f7;
+    color :white;
+    border-radius: 20px;
+}
+.para{
+    text-align: center;
+    background-color: #bc1c66;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 10px 10px 10px 10px;
+
+
+
+}
+.flexone{
+    display: flex;
+    justify-content: space-between;
+
+}
+.biginp{
+    width: 90%;
+    margin-left: -80px;
+    margin-top: 20px;
+    margin: 10px;
+    padding-left: 10px;
+}
+.bar{
+    height: 7vh;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+.check{
+    margin-left: 20px;
+}
+.progress{
+    --bs-progress-bar-bg: #bc1c66;
+}
+.bar1{
+    width: 80%;
+    height: 7vh;
+    margin: auto;
+    margin-top: 120px;
+}
+.para2{
+    color :#361548;
+    font-size: large;
+    font-weight: bold;
+}
+#submit:hover{
+  background-color: red;
+}
+#submit{
+    /* display: none; */
+}

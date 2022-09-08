@@ -1,0 +1,122 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,100&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.headingDiv {
+  margin-top: 30px;
+  position: relative;
+  top: 13%;
+}
+
+input[type="file"] {
+  display: none;
+  position: relative;
+  bottom: -42%;
+  left: 20px;
+}
+
+.custom-file-upload {
+  border-radius: 50%;
+  border: transparent;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 2%;
+  z-index: 99 !important;
+}
+.labelIn {
+  border: none;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  bottom: 100%;
+  left: 3%;
+}
+.imageWrap {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  position: relative;
+  right: -2%;
+  border: 6px solid #bf1b66;
+}
+
+.NameDiv {
+  border: none;
+  border-radius: 50px;
+  width: 80%;
+  height: 140px;
+  position: absolute;
+  bottom: 2%;
+  background-color: #46115e;
+  left: 17%;
+  padding: 10px;
+}
+.NameInput {
+  cursor: pointer;
+  background: #46115e;
+  border-radius: 30px;
+  border: 3px #feb139 solid;
+  padding: 16px 58px;
+  outline: none;
+  margin-left: 31px;
+  margin-top: -6px;
+  color: white;
+  font-weight: 900;
+}
+.InitialName {
+  background: none;
+  color: white;
+  font-size: 30px;
+  margin-left: 50px;
+  font-weight: bold;
+}
+.editIcon {
+  color: white;
+}
+.iconWrapper {
+  position: relative;
+  left: 90%;
+  margin-top: 10px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+@media (max-width: 1220px) {
+  .InitialName {
+    margin-left: 80px;
+  }
+  .NameInput {
+    margin-left: 60px;
+  }
+}
+@media (max-width: 1007px) {
+  .InitialName {
+    margin-left: 80px;
+  }
+  .NameInput {
+    padding: 15px 12px;
+    margin-left: 60px;
+  }
+}
+@media (max-width: 993px) {
+  .NameInput {
+    padding: 15px 12px;
+    margin-left: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .NameInput {
+    padding: 15px 12px;
+    margin-left: 66px;
+  }
+}
+@media (max-width: 767px) {
+  .NameInput {
+    padding: 10px 0;
+    margin-left: 77px;
+    margin-top: 9px;
+  }
+}

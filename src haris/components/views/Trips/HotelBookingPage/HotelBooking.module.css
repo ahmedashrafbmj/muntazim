@@ -1,0 +1,19 @@
+.btn{
+    margin:10px auto 0 auto;
+    border-radius: 30px;
+    padding:10px 40px;
+    border: none;
+    background-color: #BF1B66;
+    color:#fff ;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight:bold;
+    font-size:18px;
+    text-align: center !important;
+    
+}
+.btn:hover{
+    background-color: #fff;
+    color: #BF1B66;
+    font-weight: 500;
+    border:2px solid #BF1B66;
+}

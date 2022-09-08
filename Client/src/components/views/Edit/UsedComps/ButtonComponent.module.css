@@ -1,0 +1,96 @@
+/** @format */
+.btnDiv {
+  margin-top: 60px;
+}
+.btn1 {
+  border-radius: 17px;
+  padding: 10px 10% 10px 10%;
+  background-color: #c1c1c1;
+  color: white;
+  border: none;
+  margin: 30px auto;
+  display: inline-block;
+  font-size: medium;
+  position: relative;
+  left: 70px;
+}
+.btn2 {
+  border-radius: 17px;
+  padding: 10px 8% 10px 8%;
+  background-color: #c1c1c1;
+  color: white;
+  border: none;
+  margin: 30px auto;
+  display: inline-block;
+  font-size: medium;
+  position: relative;
+  box-shadow: 0 0 4px -2px #202124;
+  left: 45px;
+}
+.btn3 {
+  border-radius: 17px;
+  padding: 10px 10% 10px 10%;
+  background-color: #c1c1c1;
+  box-shadow: 0 0 4px -2px #202124;
+  color: white;
+  border: none;
+  margin: 30px auto;
+  display: inline-block;
+  font-size: medium;
+  position: relative;
+  right: -20px;
+}
+
+.btn3:hover {
+  background-color: #bf1b66;
+}
+.btn2:hover {
+  background-color: #bf1b66;
+}
+.btn1:hover {
+  background-color: #bf1b66;
+}
+
+@media (max-width: 1058px) {
+  .btn1 {
+    left: 35px;
+  }
+  .btn2 {
+    padding: 10px 7% 10px 7%;
+    left: 0px;
+  }
+  .btn3 {
+    right: 35px;
+  }
+}
+@media (max-width: 977px) {
+  .btn1 {
+    left: 35px;
+    font-size: small;
+  }
+  .btn2 {
+    padding: 10px 7% 10px 7%;
+    left: 0px;
+    font-size: small;
+  }
+  .btn3 {
+    right: 35px;
+    font-size: small;
+  }
+}
+@media (max-width: 818px) {
+  .btn1 {
+    left: 5px;
+    font-size: smaller;
+  }
+  .btn2 {
+    padding: 10px 6% 10px 6%;
+    left: -25px;
+    font-size: smaller;
+  }
+  .btn3 {
+    right: 49px;
+    padding: 10px 7% 10px 7%;
+    font-size: smaller;
+  }
+}
